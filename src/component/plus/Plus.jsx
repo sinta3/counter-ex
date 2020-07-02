@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function Plus() {
     let [countPlus, setCount] = useState(0);
-    // console.log(countPlus);
 
     return (
         <div className="plus">
@@ -20,10 +19,10 @@ function Plus() {
             </button>
             <button
                 onClick={() => {
-                    if (countPlus >= 0) {
+                    if (countPlus > 0) {
                         setCount(countPlus - 1);
                     } else {
-                        alert("the number is negative");
+                        alert("the number will be negative");
                     }
                 }}
             >

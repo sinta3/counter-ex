@@ -9,10 +9,10 @@ export default class Minus extends Component {
     }
 
     minus = () => {
-        if (this.state.countMinus >= 0) {
+        if (this.state.countMinus > 0) {
             this.setState({ countMinus: this.state.countMinus - 1 });
         } else {
-            alert("the number is negative ");
+            alert("the number will be negative ");
         }
     };
 

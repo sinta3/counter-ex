@@ -1,0 +1,19 @@
+.plus button {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.minus button {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid red;
+}
